@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: brown;
+
+}
+
+.container {
+    max-width: 850px;
+    margin:0 auto;
+}
+
+ul, ol, menu {
+ list-style: none;
+}
+
+.newTodoWrapper, .todoList {
+    padding: 20px 0;
+}
+
+.todo{
+    font-weight: bold;
+    font-size: 14px;
+    padding-top:10px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gainsboro;
+}
