@@ -6,7 +6,6 @@ createApp(
     {
         data() {
             return{
-                activeIndex: 0,
                 todos: [
                     {
                         text:'fare i compiti',
