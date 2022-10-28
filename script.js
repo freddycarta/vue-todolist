@@ -1,19 +1,19 @@
 const todos = [
     {
         text:'fare i compiti',
-        done: false
+        done: false,
     },
     {
         text:'fare la spesa',
-        done: false
+        done: false,
     },
     {
         text:'fare schifo',
-        done: false
+        done: false,
     },
     {
         text:'rifarlo il giorno dopo',
-        done: false
+        done: false,
     },
     
 ]
@@ -21,6 +21,6 @@ const todos = [
 const app = new Vue({
     el: '#app',
     data: {
-        todos:todos,
+        todos: todos,
     },
 })

@@ -15,9 +15,7 @@ html {
     margin:0 auto;
 }
 
-ul, ol, menu {
- list-style: none;
-}
+
 
 .newTodoWrapper, .todoList {
     padding: 20px 0;
