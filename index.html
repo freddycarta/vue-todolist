@@ -18,8 +18,9 @@
         </div>
         <div class="container">
             <ul class="Todolist">
-                <li v-for="()" class="todo">
-                    <i class="fa-solid fa-xmark"></i>
+                <li v-for="(todo,index) in todos" class="todo">
+                {{ todo.text }}
+                <i class="fa-solid fa-xmark"></i>
                 </li>
             </ul>
        </div>
